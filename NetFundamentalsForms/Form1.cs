@@ -14,7 +14,7 @@ namespace NetFundamentalsForms
         private void button1_Click(object sender, EventArgs e)
         {
             var firstname = textBox1.Text;
-            var result = StringConcatinator.Concatinate(firstname);
+            var result = StringConcatinator.Concatenate(firstname);
 
             MessageBox.Show(result);
         }

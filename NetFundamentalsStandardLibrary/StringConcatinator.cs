@@ -4,9 +4,7 @@ namespace NetFundamentalsStandardLibrary
 {
     public static class StringConcatinator
     {
-        public static string Concatinate(string name)
-        {
-            return $"{DateTime.Now.ToString()} Hello {name}!";
-        }
+        public static string Concatenate(string name)
+            => $"{DateTime.Now} Hello {name}!";
     }
 }
